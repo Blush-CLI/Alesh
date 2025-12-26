@@ -12,3 +12,7 @@ add_executable(alesh
     src/lexer/lexer.cpp
     src/main.cpp
 )
+
+target_include_directories(alesh PRIVATE
+    include
+)
